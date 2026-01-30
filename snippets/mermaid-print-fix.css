@@ -1,0 +1,15 @@
+/* 全局适配 Mermaid 图表 */
+.mermaid > svg {
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+/* 打印模式专用设置（导出 PDF 时生效） */
+@media print {
+  .mermaid > svg {
+    max-width: 95vw; /* 留边避免溢出 */
+    max-height: 90vh;
+    page-break-inside: avoid; /* 禁止图表跨页拆分 */
+  }
+}

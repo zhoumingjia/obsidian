@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Blue Topaz",
+  "accentColor": "",
+  "theme": "system",
+  "enabledCssSnippets": [
+    "mermaid-print-fix",
+    "callout-spacing-fix",
+    "flowchart-resize",
+    "callout-content-fix"
+  ]
+}
